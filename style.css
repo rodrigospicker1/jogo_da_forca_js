@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#headimg{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+#titulo{
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 50px;
+    text-shadow: 0px 3px 4px #ffffff;
+}
+
+#home1{
+    position: relative;
+    color:white;
+    background-color: #e70202;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 40%;
+    height: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+#home1:hover, #home2:hover{
+    box-shadow: 0px 3px 4px #000000;
+}
+
+#home2{
+    position: relative;
+    color:white;
+    background-color: #e70202;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 40%;
+    height: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+#arrow{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+#forca, #tryes, #letras, #status, #letterInput, #wordInput, #btn1, #btn2, #letrasChutadas{
+    position: relative;
+    color: white;
+}
+
+#forca{
+    font-size: 100px;
+    text-align: center;
+    margin-top: -70px;
+}
+
+#ul1{
+    margin-top: 2%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#tryes{
+    font-size: 60px;
+}
+
+#letras{
+    font-size: 60px;
+    padding-left: 100px;
+}
+
+#status{
+    font-size: 30px;
+    position: absolute; 
+    margin-top: -50px;
+    left: 50%;
+    transform: translate(-50%);
+    color: rgb(3, 180, 3);
+    
+}
+
+#letterInput, #wordInput{
+    width: 30%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+    font-size: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+#letterInput{
+    margin-left: 10%;
+}
+
+#wordInput{
+    margin-left: 15%;
+}
+
+#btn1, #btn2{
+    background-color: #e70202;
+    border: 1px solid black;
+    width: 31%;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+#btn1{
+    margin-left: 10%;
+}
+
+#btn2{
+    margin-left: 15%;
+}
+
+#letrasChutadas{
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 75%;
+    font-size: 30px;
+}
